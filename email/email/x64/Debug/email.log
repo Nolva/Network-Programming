@@ -1,0 +1,6 @@
+﻿  global.cpp
+F:\email\email\email\global.cpp(327,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\email\email\email\global.cpp(355,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\email\email\email\global.cpp(379,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\email\email\email\global.cpp(397,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  email.vcxproj -> F:\email\email\x64\Debug\email.exe

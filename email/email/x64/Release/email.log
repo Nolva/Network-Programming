@@ -1,0 +1,264 @@
+﻿  pch.cpp
+  Base64.cpp
+H:\网络编程\email\email\email\Base64.cpp(137,51): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+H:\网络编程\email\email\email\Base64.cpp(187,51): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  draft.cpp
+  email.cpp
+  emailDlg.cpp
+  global.cpp
+H:\网络编程\email\email\email\global.cpp(327,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\global.cpp(355,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\global.cpp(379,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\global.cpp(397,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  pop3Sock.cpp
+H:\网络编程\email\email\email\pop3Sock.cpp(30,25): warning C4244: “return”: 从“INT_PTR”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(38,56): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(47,72): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(47,56): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(54,58): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(59,68): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(59,47): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(43,21): warning C4101: “memExp”: 未引用的局部变量
+H:\网络编程\email\email\email\pop3Sock.cpp(133,39): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [6]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(133,32): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(135,40): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [16]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(135,11): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(144,33): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [4]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(144,28): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(146,38): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [14]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(146,11): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(155,35): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [6]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(155,28): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(157,40): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [16]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(157,11): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(175,42): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [5]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(175,32): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(191,42): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [9]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(191,32): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(193,37): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [15]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(193,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(221,27): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [2]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(221,23): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(241,31): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(241,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(242,18): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(242,7): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(260,5): error C2664: “BOOL CFile::Open(LPCTSTR,UINT,ATL::CAtlTransactionManager *,CFileException *)”: 无法将参数 1 从“const char [8]”转换为“LPCTSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(260,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\afx.h(1103,15): message : 参见“CFile::Open”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(263,14): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(266,39): warning C4244: “参数”: 从“ULONGLONG”转换到“UINT”，可能丢失数据
+H:\网络编程\email\email\email\pop3Sock.cpp(282,24): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(282,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(286,50): error C2678: 二进制“+”: 没有找到接受“const char [28]”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const wchar_t *)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const wchar_t *,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+H:\网络编程\email\email\email\pop3Sock.cpp(286,50): message : 尝试匹配参数列表“(const char [28], CString)”时
+H:\网络编程\email\email\email\pop3Sock.cpp(299,49): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(299,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(300,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(300,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(308,49): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(308,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(309,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(309,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(318,30): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(318,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(319,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(319,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(339,33): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [11]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(339,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(340,18): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(340,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(355,54): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [24]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(355,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(358,35): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [6]”转换为“wchar_t”
+H:\网络编程\email\email\email\pop3Sock.cpp(358,28): message : 没有使该转换得以执行的上下文
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(1749,6): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(369,37): error C2440: “初始化”: 无法从“wchar_t *”转换为“char *”
+H:\网络编程\email\email\email\pop3Sock.cpp(369,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+H:\网络编程\email\email\email\pop3Sock.cpp(371,19): error C2440: “初始化”: 无法从“char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+H:\网络编程\email\email\email\pop3Sock.cpp(371,19): message : class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+H:\网络编程\email\email\email\pop3Sock.cpp(378,121): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [48]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(378,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(384,5): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [52]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(384,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(430,44): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(430,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(431,19): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(431,10): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(440,44): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(440,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(441,20): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(441,11): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(447,33): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(447,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(448,20): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(448,11): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(453,46): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [8]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(453,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(474,42): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(474,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(475,18): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(475,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\pop3Sock.cpp(482,31): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\pop3Sock.cpp(482,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\pop3Sock.cpp(483,18): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\pop3Sock.cpp(483,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  receive.cpp
+H:\网络编程\email\email\email\receive.cpp(63,38): error C2678: 二进制“+”: 没有找到接受“const char [9]”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const wchar_t *)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const wchar_t *,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+H:\网络编程\email\email\email\receive.cpp(63,38): message : 尝试匹配参数列表“(const char [9], CString)”时
+H:\网络编程\email\email\email\receive.cpp(86,62): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [21]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\receive.cpp(86,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\receive.cpp(90,73): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [27]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\receive.cpp(90,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\receive.cpp(94,67): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [21]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\receive.cpp(94,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\receive.cpp(141,23): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\receive.cpp(141,14): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\receive.cpp(154,42): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\receive.cpp(154,21): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\receive.cpp(154,63): error C2664: “int atoi(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+H:\网络编程\email\email\email\receive.cpp(154,49): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+G:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(447,62): message : 参见“atoi”的声明
+H:\网络编程\email\email\email\receive.cpp(154,64): error C2661: “CAsyncSocket::Connect”: 没有重载函数接受 1 个参数
+  setting.cpp
+  send.cpp
+H:\网络编程\email\email\email\send.cpp(118,42): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\send.cpp(118,21): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\send.cpp(118,63): error C2664: “int atoi(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+H:\网络编程\email\email\email\send.cpp(118,49): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+G:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(447,62): message : 参见“atoi”的声明
+H:\网络编程\email\email\email\send.cpp(118,64): error C2661: “CAsyncSocket::Connect”: 没有重载函数接受 1 个参数
+H:\网络编程\email\email\email\send.cpp(133,41): error C2678: 二进制“+”: 没有找到接受“const char [11]”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const ATL::CSimpleStringT<wchar_t,true> &,const wchar_t *)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<wchar_t,true> ATL::CSimpleStringT<wchar_t,true>::operator +(const wchar_t *,const ATL::CSimpleStringT<wchar_t,true> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+H:\网络编程\email\email\email\send.cpp(133,41): message : 尝试匹配参数列表“(const char [11], CString)”时
+H:\网络编程\email\email\email\send.cpp(175,29): error C2664: “void CBase64::Encode(LPCSTR)”: 无法将参数 1 从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\send.cpp(175,15): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\Base64.h(11,16): message : 参见“CBase64::Encode”的声明
+H:\网络编程\email\email\email\send.cpp(190,22): error C2664: “void CBase64::Encode(LPCSTR)”: 无法将参数 1 从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\send.cpp(190,15): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\Base64.h(11,16): message : 参见“CBase64::Encode”的声明
+H:\网络编程\email\email\email\send.cpp(219,69): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [43]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\send.cpp(219,17): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\send.cpp(227,39): error C2440: “初始化”: 无法从“wchar_t *”转换为“char *”
+H:\网络编程\email\email\email\send.cpp(227,17): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+H:\网络编程\email\email\email\send.cpp(232,17): error C2440: “初始化”: 无法从“char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+H:\网络编程\email\email\email\send.cpp(232,17): message : class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+H:\网络编程\email\email\email\send.cpp(242,30): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\send.cpp(242,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\send.cpp(254,24): error C2664: “void CBase64::Encode(LPCSTR)”: 无法将参数 1 从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\send.cpp(254,16): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\Base64.h(11,16): message : 参见“CBase64::Encode”的声明
+H:\网络编程\email\email\email\send.cpp(279,31): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\send.cpp(279,19): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\send.cpp(293,16): warning C4244: “初始化”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+  smtpSock.cpp
+H:\网络编程\email\email\email\smtpSock.cpp(72,31): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(72,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(73,18): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(73,7): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(86,24): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(86,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(95,49): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [12]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(95,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(96,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(96,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(103,36): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [15]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(103,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(104,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(104,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(111,30): error C2664: “void CBase64::Encode(LPCSTR)”: 无法将参数 1 从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(111,16): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\Base64.h(11,16): message : 参见“CBase64::Encode”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(117,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(117,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(125,30): error C2664: “void CBase64::Encode(LPCSTR)”: 无法将参数 1 从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(125,16): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\Base64.h(11,16): message : 参见“CBase64::Encode”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(129,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(129,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(136,56): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [19]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(136,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(138,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(138,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(145,59): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [18]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(145,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(146,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(146,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(152,30): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(152,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(153,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(153,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+H:\网络编程\email\email\email\smtpSock.cpp(186,30): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [9]”转换为“const wchar_t *”
+H:\网络编程\email\email\email\smtpSock.cpp(186,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+H:\网络编程\email\email\email\smtpSock.cpp(187,17): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+H:\网络编程\email\email\email\smtpSock.cpp(187,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
